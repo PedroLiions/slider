@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="sliders">
+    <ng-content select=".content"></ng-content>
+  </div>
+  <div class="controls" [class]="alignControls">
+    <button (click)="prev()" [disabled]="checkPrevDisabled()" ><<</button>
+    <button (click)="next()" [disabled]="checkNextDisabled()">>></button>
+  </div>
+</div>

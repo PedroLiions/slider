@@ -1,1 +1,29 @@
+.wrapper .sliders {
+  width: 100%;
+}
+.wrapper .sliders .content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper .sliders .content app-slide-item {
+  transition: all 0.2s ease;
+  flex: 0 0 100%;
+}
+
+.wrapper .controls {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper .controls.start {
+  justify-content: flex-start;
+}
+.wrapper .controls.end {
+  justify-content: flex-end;
+}
+.wrapper .controls.center {
+  justify-content: center;
+}
+
 /* You can add global styles to this file, and also import other style files */
